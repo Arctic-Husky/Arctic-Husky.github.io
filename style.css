@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=DM+Mono&family=Open+Sans&family=Roboto:wght@500&display=swap');
+html {
+    color: black;
+    scroll-behavior: smooth;
+}
+.main{
+    background-color: black;
+    color: white;
+
+}.main img {
+     width: 3vw;
+     margin-left: 35vw;
+     margin-right: auto;
+     display: block;
+ }#css{
+       width: 2.1vw;
+       margin-left: 35vw;
+       margin-right: auto;
+       display: block;
+   }
+.work{
+
+}.work img{
+     width: 30vw;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+.plus .cont{
+    text-align: center;
+}.plus img{
+    width: 1.5vw;
+ }
+ p{
+     font-family: 'DM Mono', monospace;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40em;
+     font-size: 1.1vw;
+ }
+ #me{
+     width: 30vw;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     border: 1vw
+ }
+ #caio{
+     text-align: center;
+     font-size: 2vw;
+     font-family: 'Balsamiq Sans', cursive;
+ }#fonseca{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Balsamiq Sans', cursive;
+
+ }
+.column {
+    float: left;
+    width: 06.06%;
+    padding: 0.1vw;
+}
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#mywork{
+    font-size: 1.5vw;
+}
+#aboutme{
+    font-size: 1.5vw;
+}
+footer{
+    font-size: 0.8vw;
+}
